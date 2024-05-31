@@ -6,7 +6,7 @@ export const defaultTheme = {
         'base-text': '#141313',
         'backround': '#FBF9F4',
     
-        'pink': '#FFB3D1',
+        'pink': '#FFC7DD',
         'purple': '#B2A4FF',
         'green': '#98EC7B'
     },

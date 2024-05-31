@@ -15,7 +15,13 @@ export const GlobalStyles = createGlobalStyle`
     main{
         max-width: 1200px;
         width: 100%;
+        min-height: 100vh;
         margin: 0 auto;
     }
 
+    .header-background{
+        background-color: ${props => props.theme.colors.pink};
+        width: 100%;
+        height: 150px;
+    }
 `
