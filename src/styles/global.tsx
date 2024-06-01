@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background: ${props => props.theme.colors.backround};
     }
-    main{
+    .layout{
         max-width: 1200px;
         width: 100%;
         min-height: 100vh;

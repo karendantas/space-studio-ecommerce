@@ -23,9 +23,11 @@ export default function RootLayout({
       <CustomThemeProvider>
         <body className={inter.className}>
           <div className="header-background"></div>
-            <Header />
-            {children}
-
+            <div className="layout">
+              <Header />
+              {children}
+            </div>
+    
           <div className="header-background"></div>
         </body>
 
