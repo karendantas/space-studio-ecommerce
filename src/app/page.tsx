@@ -23,7 +23,7 @@ export default function Home() {
       </HeroContainer>
 
       <Image src ={HorizontalDivider} width={700} height={300} alt = "" />
-
+  
       <CardsContainer>
 
         <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
