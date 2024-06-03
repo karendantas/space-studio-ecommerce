@@ -12,6 +12,7 @@ export const defaultTheme = {
         'pink': '#FFC7DD',
         'dark-pink': '#FFB3D1',
         'purple': '#B2A4FF',
+        'dark-purple': '#9C8BFF',
         'green': '#98EC7B'
     },
     fontSize : {

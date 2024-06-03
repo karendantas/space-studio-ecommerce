@@ -61,3 +61,12 @@ export const HeroContainer = styled.div`
 
     }
 `;
+
+export const CardsContainer = styled.div`
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 2.5rem;
+
+`
