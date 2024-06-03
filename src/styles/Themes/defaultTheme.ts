@@ -18,8 +18,8 @@ export const defaultTheme = {
         'sm': '0.625rem',
         'md': '1rem',
         'lg': '1.125rem',
-        'x-lg': '1.5rem',
-        'xx-lg': '2rem'
+        'xlg': '1.25rem',
+        'xxlg': '4rem',
     }
 
     

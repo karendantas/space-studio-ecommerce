@@ -6,7 +6,8 @@ export const HeaderContainer = styled.div `
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 0 2rem;
+
+    
 `
 
 export const NavBar =  styled.div`

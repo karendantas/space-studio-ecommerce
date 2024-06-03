@@ -12,12 +12,12 @@ export function Header(){
 
             <NavBar>
                 <NavegationItems>
-                    <NavItem isSelected> HOME </NavItem>
-                    <NavItem> PRODUTOS </NavItem>
-                    <NavItem> SOBRE NÓS </NavItem>
-                    <NavItem> ENCOMENDAR </NavItem>
-                    <NavItem> LOGIN </NavItem>
-                    <NavItem> CADASTRO </NavItem>
+                    <NavItem isSelected> Home </NavItem>
+                    <NavItem> Produtos </NavItem>
+                    <NavItem> Sobre nós</NavItem>
+                    <NavItem> Encomendar </NavItem>
+                    <NavItem> Login </NavItem>
+                    <NavItem> Cadastro </NavItem>
                 </NavegationItems>
 
                 <UserItems>

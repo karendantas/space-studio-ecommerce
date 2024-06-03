@@ -12,6 +12,10 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background: ${props => props.theme.colors.backround};
     }
+
+    textarea, input, button {
+        outline-color: ${props => props.theme.colors.purple};
+    }
     .layout{
         max-width: 1200px;
         width: 100%;
@@ -22,6 +26,6 @@ export const GlobalStyles = createGlobalStyle`
     .header-background{
         background-color: ${props => props.theme.colors.pink};
         width: 100%;
-        height: 150px;
+        height: 70px;
     }
 `
