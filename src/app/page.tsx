@@ -4,9 +4,13 @@ import { CardsContainer, HeroContainer, HomeContainer } from "./page-styles";
 
 import HomeImage from '@/assets/HomeImage.svg';
 import HorizontalDivider from '@/assets/horizontal-divider.svg';
+
+import i from '@/assets/products/brincos-1.jpg'
 import { Card } from "@/components/card";
+import { useProducts } from "@/hooks/useProducts";
 
 export default function Home() {
+  const { products } = useProducts();
   return (
    <HomeContainer>
       <HeroContainer>
@@ -23,15 +27,19 @@ export default function Home() {
       </HeroContainer>
 
       <Image src ={HorizontalDivider} width={700} height={300} alt = "" />
-  
+   
       <CardsContainer>
-
-        <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
-        <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
-        <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
-        <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
-        <Card title="Bolsa" description="descricao ==" price="23,00" image="a" />
-
+        {products.map( (product) => {
+          return (
+            <Card 
+              key={product.id}
+              title={product.title ?? "bosa"}
+              description={product.description}
+              image={product.image}
+              price={product.price_in_cents}
+            />
+          )
+        })}
       </CardsContainer>
    </HomeContainer>
   );

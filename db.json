@@ -3,21 +3,21 @@
         {
             "id": 1,
             "title": "Bolsa Florida Crochê",
-            "image": "/src/assets/products/bolsa-croche-1.png",
+            "image": "",
             "description": "Bolsa bege com flores coloridas feitas com crochê!",
             "price_in_cents": 2900
         },
         {
             "id": 2,
             "title": "Brincos girassol",
-            "image": "/src/assets/products/brincos-1.jpg",
+            "image": "",
             "description": "Brincos magníficos de girassol feitos de biscuit!",
             "price_in_cents": 1200
         },
         {
             "id": 3,
             "title": "Camisa de crochê",
-            "image": "/src/assets/products/camisa-croche.jpg",
+            "image": "",
             "description": "Camisa femenina super colorida feita de fios de algodão",
             "price_in_cents": 1200
         }

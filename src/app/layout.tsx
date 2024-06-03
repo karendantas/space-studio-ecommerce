@@ -3,7 +3,10 @@ import { Inter } from "next/font/google";
 
 import { CustomThemeProvider } from "@/styles/Themes/CustomThemeProvider/provider";
 import { GlobalStyles } from "../styles/global";
+
 import { Header } from "@/components/header";
+
+import { ProductsContextProvider } from "@/contexts/productsContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,14 +23,16 @@ export default function RootLayout({
   return (
 
     <html lang="pt-br">
+      
       <CustomThemeProvider>
         <body className={inter.className}>
           <div className="header-background"></div>
             <div className="layout">
-              <Header />
-              {children}
+              <ProductsContextProvider>
+                <Header />
+                {children}
+              </ProductsContextProvider>
             </div>
-    
           <div className="header-background"></div>
         </body>
 
